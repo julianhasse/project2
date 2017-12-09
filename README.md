@@ -19,8 +19,4 @@ Node.js, Express, MySQL, Sequelize, JQuery, Bootstrap
 
 ### [Demo](heroku url here)
 
-### Authors
-####Nick Williams
-####Gavin Ervin
-####Justin Niederer
-####Julian Hasse
+### Authors: Nick Williams, Gavin Ervin, Justin Niederer, Julian Hasse
