@@ -1,12 +1,13 @@
 $(document).ready(function(){
 	// datatable config
     $('table').DataTable({
-        "columnDefs": [
+		"columnDefs": [
             { "orderable": false, "targets": [5] }
           ],
         order: [[ 0, "asc" ]],
         info: false,
-        paging: false,
+		paging: true,
+		pagingType: "full_numbers"
     });
 
     // Validate the form before submit it

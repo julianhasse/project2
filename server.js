@@ -1,25 +1,25 @@
 // Express
-var express = require("express");
-var app = express();
-var product = require('./routes/product');
-var path = require('path');
-var PORT = process.env.PORT || 3000;
+const express = require("express");
+const app = express();
+const product = require('./routes/product');
+const path = require('path');
+const PORT = process.env.PORT || 3000;
 
 // Requiring our models for syncing
-var db = require("./models");
+const db = require("./models");
 
 // Sets up the Express app to handle data parsing
-var bodyParser = require("body-parser");
+const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 // Handlebars
-var exphbs = require("express-handlebars");
+const exphbs = require("express-handlebars");
 
 // Helper to format the price with 2 decimals
-var hbs = exphbs.create({
+const hbs = exphbs.create({
 	helpers: {
 		formatPrice: function(price) {
   			price = price.toFixed(2);
