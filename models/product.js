@@ -5,7 +5,7 @@ module.exports = function(sequelize, DataTypes){
 			allowNull: false,
 			validate: {
       			notEmpty: {
-        			msg: "Enter the name of the product."
+        			msg: "Enter the movie's title."
       			}
 			}
 		},
@@ -15,7 +15,7 @@ module.exports = function(sequelize, DataTypes){
 			allowNull: false,
 			validate: {
       			notEmpty: {
-        			msg: "Enter the department."
+        			msg: "Enter the movie's genre."
       			}
 			}
 		},

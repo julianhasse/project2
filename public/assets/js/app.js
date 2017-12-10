@@ -55,7 +55,7 @@ $(document).ready(function(){
     	var name = $('#name');
     	if(name.val().trim() === "")
     	{
-    		displayError(name, 'Enter the name of the product.');
+    		displayError(name, 'Enter the title of the movie.');
     		return false;
     	}
 
@@ -63,7 +63,7 @@ $(document).ready(function(){
     	var department = $('#department');
     	if(department.val().trim() === "")
     	{
-    		displayError(department, 'Enter the department.');
+    		displayError(department, 'Enter the genre.');
     		return false;
     	}
 

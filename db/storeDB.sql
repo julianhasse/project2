@@ -1,4 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `storedb` /*!40100 DEFAULT CHARACTER SET latin1 */;
+CREATE DATABASE IF NOT EXISTS `storedb` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `storedb`;
 -- MySQL dump 10.13  Distrib 5.7.17, for macos10.12 (x86_64)
 --
@@ -43,7 +43,13 @@ CREATE TABLE `products` (
 
 LOCK TABLES `products` WRITE;
 /*!40000 ALTER TABLE `products` DISABLE KEYS */;
-INSERT INTO `products` VALUES (1,'Mac book pro','Electronic',1999.99,10,1,'2017-11-01 03:20:53','2017-11-03 02:55:50'),(3,'Play station','Electronic',499.99,12,0,'2017-11-01 03:23:36','2017-11-03 02:56:03'),(4,'Javascript book','Books',29.00,5,1,'2017-11-01 04:00:53','2017-11-03 15:04:12'),(5,'JQuery book','Books',29.95,10,0,'2017-11-01 04:01:52','2017-11-03 02:55:43'),(6,'MySQL book','Books',24.99,10,0,'2017-11-01 04:02:27','2017-11-03 02:55:56'),(8,'ThinkPad computer','Books',120.00,12,1,'2017-11-02 04:24:49','2017-11-03 02:34:39');
+INSERT INTO products VALUES 
+(1,'Jaws','Adventure',9.99,10,1,'2017-11-01 03:20:53','2017-11-03 02:55:50'),
+(2,'E.T.','Adventure',9.99,12,0,'2017-11-01 03:23:36','2017-11-03 02:56:03'),
+(3,'Psycho','Thriller',9.99,5,1,'2017-11-01 04:00:53','2017-11-03 15:04:12'),
+(4,'Gone with the wind','Drama',9.99,10,0,'2017-11-01 04:01:52','2017-11-03 02:55:43'),
+(5,'Rush Hour 2','Action',4.99,10,0,'2017-11-01 04:02:27','2017-11-03 02:55:56'),
+(6,'Spinal Tap','Comedy',0.99,12,1,'2017-11-02 04:24:49','2017-11-03 02:34:39');
 /*!40000 ALTER TABLE `products` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
