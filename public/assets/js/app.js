@@ -105,3 +105,12 @@ $(document).ready(function(){
 	    el.parent().addClass('has-error');
 	}
 });
+
+// Hover to handle API request
+$("#data table td").hover(function(){
+	var movieTitle = $(this).attr("data-title"); //get the title from its data attr
+	console.log("You hover on:");
+	console.log(movieTitle);
+}, function(){
+    console.log("Hover out");
+});

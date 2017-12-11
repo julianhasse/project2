@@ -11,9 +11,12 @@ router.get('/', productController.list);
 router.get('/create', productController.create);
 
 // GET request for chat section
-router.get('/chat', (req, res) =>{
-    res.render('chat');
-});
+router.get('/chat', function(req, res) {
+      res.render('chat', {
+        pageTitle: 'Chat',
+        pageID: 'chat'
+      });
+    });
 
 // GET request for edit one product
 router.get('/:id/edit', productController.edit);

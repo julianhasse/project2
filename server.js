@@ -5,6 +5,7 @@ const product = require('./routes/product');
 const path = require('path');
 const PORT = process.env.PORT || 3000;
 
+
 // Requiring our models for syncing
 const db = require("./models");
 
@@ -43,8 +44,12 @@ app.use(function(req, res) {
 	res.render('404');
 });
 
+
 db.sequelize.sync().then(function(){
 	app.listen(PORT, function() {
 	  console.log("App listening on PORT " + PORT);
 	});
 });
+
+
+

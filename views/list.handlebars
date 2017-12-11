@@ -16,7 +16,7 @@
 		            </thead>
 	                {{#each products}}
 	                    <tr id="{{this.id}}">
-	                        <td>{{this.name}}</td>
+	                        <td data-title="{{this.name}}">{{this.name}}</td>
 	                        <td>{{this.department}}</td>
 	                        <td>{{ formatPrice this.price}}</td>
 	                        <td>{{this.stock}}</td>
