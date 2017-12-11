@@ -13,9 +13,10 @@ A CRUD stock management app. On the server side this app uses Node and MySQL to 
 - **express-handlebars** 
 - **mysql2**
 - **sequelize**
+- **socket.io**
 
 ### Developed with
-Node.js, Express, MySQL, Sequelize, JQuery, Bootstrap, DataTables (plug-in for jQuery)
+Node.js, Express, MySQL, Sequelize, JQuery, Bootstrap, socket.io (chat) DataTables (plug-in for jQuery)
 
 ### [Demo](heroku url here)
 
