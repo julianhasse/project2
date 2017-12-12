@@ -1,7 +1,27 @@
-<div class="container">
-    <div class="row">
-        <div class="col-sm-4">
-            <h1>Chat</h1>
-        </div>
-    </div> 
-</div><!-- container -->
+<div id="container">
+    <br>
+		<div id="namesWrapper">
+			<h2>Messenger</h2>
+			<p>Create Username:</p>
+			<div id="error"></div>
+			<form id="usernameForm">
+				<input id="username" size="35" type="text">
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+
+		<div id="mainWrapper">
+			<h2>Messenger</h2>
+			<div id="chatWrapper">
+				<div id="chatWindow"></div>
+				<form id="messageForm">
+						<input id="message" size="35" type="text" placeholder="Type something...">
+						<input type="submit" value="Submit">
+				</form>
+			</div>
+
+			<div id="userWrapper">
+				<div id="users"></div>
+			</div>
+		</div>
+	</div> 

@@ -68,4 +68,54 @@ form {
   .feedback-item:last-of-type {
 	border-bottom: none;
   }
-  
+	
+	
+	/** Messenger **/
+	@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
+
+				body{
+				background:#fDfDfD;
+				font-family: 'Roboto', sans-serif;
+				}
+				#container{
+					width: 700px;
+					margin: 0 auto;
+				}
+				#chatWindow {
+					height:300px;
+				}
+				#mainWrapper{
+				display:none;
+				}
+				#chatWrapper{
+					float:left;
+					border:1px #ccc solid;
+					border-radius: 10px;
+					background: #f4f4f4;
+					padding:10px;
+					font-family: 'Roboto Mono', sans-serif;
+					font-size: 12px;
+				}
+				#userWrapper{
+					float:left;
+					border:1px #ccc solid;
+					border-radius: 10px;
+					background: #f4f4f4;
+					padding:10px;
+					margin-left: 20px;
+					width:150px;
+					max-height: 200px;
+				}
+				#namesWrapper{
+					float:left;
+					border:1px #ccc solid;
+					border-radius: 10px;
+					background: #f4f4f4;
+					padding:10px;
+					margin-left: 20px;
+				}
+				input{
+					height:30px;
+					border:1px solid #ccc;
+					font-family: 'Roboto Mono', sans-serif;
+				}

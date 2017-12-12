@@ -110,13 +110,3 @@ $(".icon_edit").tooltip();
 $(".icon_delete").tooltip();
 $(".icon_info").tooltip();
 
-// Hover to handle API request
-// $("#data table td").hover(function(){
-// 	var movieTitle = $(this).attr("data-title"); 
-// 	console.log("You hover on:");
-// 	console.log(movieTitle);
-// 	// Show the dialog box
-// 	$("#api-request").modal();
-// }, function(){
-//     console.log("Hover out");
-// });
