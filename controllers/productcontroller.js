@@ -1,7 +1,8 @@
 // Dependencies
-var express = require('express');
+const express = require('express');
 var db = require('../models');
-// Requeri the list of departments from departments.js
+
+// Require the list of genres from departments.js
 // This list will fill the select element in the view
 var departments = require('../config/departments');
 
@@ -17,7 +18,7 @@ exports.create = function(req, res){
 	res.render("create", { department: departments});
 }
 
-// Save the a new product in database and redirect to create
+// Save the new product in database and redirect to create
 exports.store = function(req, res){
 	db.product.create({
 		name: req.body.name,
@@ -27,7 +28,7 @@ exports.store = function(req, res){
 		active: (req.body.active == 'on') ? true : false
 	})	
 	.then(function(){
-		res.redirect('create');
+		res.redirect('/');  // option is to redirect to 'create' so user could enter several titles 
 	});
 }
 

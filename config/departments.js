@@ -1,3 +1,5 @@
+// List of genres 
+
 module.exports = {
 	0: {"value":"Action", "text":"Action"},
 	1: {"value":"Adventure", "text":"Adventure"},
