@@ -13,6 +13,8 @@ exports.list = function(req, res){
 	});
 }
 
+
+
 // Render view to create a new product
 exports.create = function(req, res){
 	res.render("create", { department: departments});
@@ -79,3 +81,15 @@ exports.update = function(req, res){
 	});
 	
 }
+
+// Display selected movie
+// exports.info = function(req, res){
+// 	db.product.findOne({
+// 		where:{
+// 			id: req.params.id
+// 		}
+// 	}).then(function(data){
+// 		res.json(data);
+// 	});
+// }
+

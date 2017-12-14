@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const request = require('request');
 
 // Require controller modules
 var productController = require('../controllers/productcontroller');
@@ -29,5 +30,34 @@ router.post('/update', productController.update);
 
 // POST request to delete a product
 router.post('/:id/delete', productController.delete);
+
+
+router.get('/api/:id', function(req, response, next){
+	var movie = req.params.id;
+
+	request('https://www.omdbapi.com/?t=' + movie + '&y=&plot=short&apikey=trilogy',{JSON: true},(err, res, body) => {
+			if (err) { 
+				return console.log(err);
+			}
+			console.log(body)
+			var movieObj = body;
+			response.locals.movieObj = movieObj
+			next();
+
+	});
+
+	// res.render('info', {
+ //        movieTitle: movieObj
+
+ //      });
+
+}, function(req, res, next){
+	 movieTitle = JSON.parse(res.locals.movieObj)
+	 res.render('info',{
+	 	movieTitle: movieTitle
+	 });
+
+
+});
 
 module.exports = router;
