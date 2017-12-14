@@ -23,6 +23,8 @@
     "express-handlebars": "^3.0.0",
     "mysql2": "^1.4.2",
     "nodemon": "^1.12.5",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
     "sequelize": "^4.20.1",
     "socket.io": "^2.0.4",
     "volleyball": "^1.4.1"
