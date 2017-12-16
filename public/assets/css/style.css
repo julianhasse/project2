@@ -8,6 +8,41 @@ form {
 	float: right;
 }
 
+/*Movie Info Styling*/
+.panel-info{
+	font-family: Roboto;
+	font-weight:400;
+	padding:0;
+	background-color: 
+}
+
+.panel-info > .panel-heading{
+	background-color: #CBE2F3;
+	color:#244E81;
+}
+
+.movieIndentifier{
+	font-weight: 700;
+	color: #244E81;
+	font-size:16px;
+}
+
+.movieData{
+	font-weight: 400;
+	font-size: 16px;
+	color:#A9A9A9;
+}
+
+.moviePoster{
+	border-radius: 7px;
+}
+
+h3 > .panel-heading{
+	margin: 0px;
+	padding: 5px;
+}
+
+/*Movie Info Ends*/
 
 /**  about-display **/
 .aboutText {
