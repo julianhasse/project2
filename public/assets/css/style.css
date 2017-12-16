@@ -21,11 +21,6 @@ form {
 	color:#244E81;
 }
 
-/*.movieTitle{
-	font-weight:700;
-	font-size: 32px;
-}*/
-
 .movieIndentifier{
 	font-weight: 700;
 	color: #244E81;
@@ -36,6 +31,10 @@ form {
 	font-weight: 400;
 	font-size: 16px;
 	color:#A9A9A9;
+}
+
+.moviePoster{
+	border-radius: 7px;
 }
 
 h3 > .panel-heading{
