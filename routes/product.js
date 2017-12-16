@@ -17,7 +17,12 @@ router.get('/chat', function(req, res) {
         pageTitle: 'Chat',
         pageID: 'chat'
       });
-    });
+	});
+	
+	// GET request for chat section
+router.get('/about', function(req, res) {
+	res.render('about');
+  });
 
 // GET request for edit one product
 router.get('/:id/edit', productController.edit);
