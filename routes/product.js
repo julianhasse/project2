@@ -19,7 +19,7 @@ router.get('/chat', function(req, res) {
       });
 	});
 	
-	// GET request for chat section
+	// GET request for about section
 router.get('/about', function(req, res) {
 	res.render('about');
   });
@@ -50,11 +50,6 @@ router.get('/api/:id', function(req, response, next){
 			next();
 
 	});
-
-	// res.render('info', {
- //        movieTitle: movieObj
-
- //      });
 
 }, function(req, res, next){
 	 movieTitle = JSON.parse(res.locals.movieObj)
