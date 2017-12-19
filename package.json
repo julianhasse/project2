@@ -1,22 +1,22 @@
 {
-  "name": "productregistration",
+  "name": "bluebox",
   "version": "1.0.0",
   "description": "A product registration app",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jhongert/Product-Registration.git"
+    "url": "https://github.com/julianhasse/project2"
   },
-  "author": "Jhongert Fuertes",
+  "author": "The AristCruds",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jhongert/Product-Registration/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/Jhongert/Product-Registration#readme",
+  "homepage": "https://github.com/julianhasse/project2", 
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
