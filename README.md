@@ -18,6 +18,6 @@ A CRUD stock management app. On the server side this app uses Node and MySQL to 
 ### Developed with
 Node.js, Express, MySQL, Sequelize, JQuery, Bootstrap, socket.io (chat) DataTables (plug-in for jQuery)
 
-### [Demo] https://dashboard.heroku.com/apps/immense-reaches-81138
+### [Demo] https://immense-reaches-81138.herokuapp.com/
 
 ### Authors: Nick Williams, Gavin Ervin, Justin Niederer, Julian Hasse
