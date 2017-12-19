@@ -11,12 +11,12 @@
     "type": "git",
     "url": "https://github.com/julianhasse/project2"
   },
-  "author": "The AristCruds",
+  "author": "Julian Hasse, Nick Williams, Gavin Ervin, Justin Niederer",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/julianhasse/project2"
   },
-  "homepage": "https://github.com/julianhasse/project2", 
+  "homepage": "https://github.com/julianhasse/project2",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
