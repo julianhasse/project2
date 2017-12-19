@@ -1,5 +1,5 @@
 {
-  "name": "productregistration",
+  "name": "blueblox",
   "version": "1.0.0",
   "description": "A product registration app",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jhongert/Product-Registration.git"
+    "url": "https://github.com/julianhasse/project2"
   },
-  "author": "Jhongert Fuertes",
+  "author": "Julian Hasse",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jhongert/Product-Registration/issues"
+    "url": "https://github.com/julianhasse/project2"
   },
-  "homepage": "https://github.com/Jhongert/Product-Registration#readme",
+  "homepage": "https://github.com/julianhasse/project2",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
