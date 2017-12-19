@@ -1,0 +1,32 @@
+{
+  "name": "bluebox",
+  "version": "1.0.0",
+  "description": "A product registration app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julianhasse/project2"
+  },
+  "author": "The AristCruds",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/julianhasse/project2", 
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mysql2": "^1.4.2",
+    "nodemon": "^1.12.5",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "sequelize": "^4.20.1",
+    "socket.io": "^2.0.4",
+    "volleyball": "^1.4.1"
+  }
+}

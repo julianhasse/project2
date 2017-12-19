@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+form {
+	margin-top: 30px;
+}
+
+#submit {
+	float: right;
+}
+
+/*Movie Info Styling*/
+.panel-info{
+	font-family: Roboto;
+	font-weight:400;
+	padding:0;
+	background-color: 
+}
+
+.panel-info > .panel-heading{
+	background-color: #CBE2F3;
+	color:#244E81;
+}
+
+.movieIndentifier{
+	font-weight: 700;
+	color: #244E81;
+	font-size:16px;
+}
+
+.movieData{
+	font-weight: 400;
+	font-size: 16px;
+	color:#A9A9A9;
+}
+
+.moviePoster{
+	border-radius: 7px;
+}
+
+h3 > .panel-heading{
+	margin: 0px;
+	padding: 5px;
+}
+
+/*Movie Info Ends*/
+
+/**  about-display **/
+.aboutText {
+	font-family:'Roboto', sans-serif;
+	font-weight:400;
+	font-size:16px;
+	line-height: 250%;
+	color:#A9A9A9;
+}
+
+.aboutTitle {
+	font-family:'Roboto', sans-serif;
+	font-weight:500;
+	color:#244E81;
+}
