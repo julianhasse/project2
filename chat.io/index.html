@@ -25,6 +25,7 @@
 		}
 		#chatWindow {
 			height:300px;
+			overflow: hidden;
 		}
 		#mainWrapper{
 		display:none;
@@ -38,6 +39,7 @@
 			padding:10px;
 			font-family: 'Roboto Mono', sans-serif;
 			font-size: 12px;
+			color:#244E81;
 		}
 		#userWrapper{
 			float:left;
@@ -64,6 +66,14 @@
 		}
 		.title {
 			font-size: 18px;
+			font-family: 'Roboto Mono', sans-serif;
+			color:#244E81;
+		}
+
+		.firstTitle {
+			font-size: 22px;
+			font-family: 'Roboto Mono', sans-serif;
+			color:#244E81;
 		}
 
 	</style>
@@ -73,7 +83,7 @@
 
 	<div id="container">
 		<div id="namesWrapper">
-			<h3>Messenger</h3>
+			<h3 class="firstTitle">Messenger</h3>
 			<p>Create Username:</p>
 			<div id="error"></div>
 			<form id="usernameForm">
@@ -141,7 +151,7 @@
 			});
 
 			socket.on('new message', function(data){
-				$chat.append('<strong style="color:red">' + data.user + '</strong>: ' + data.msg + '<br>')
+				$chat.prepend('<strong style="color:red">' + data.user + '</strong>: ' + data.msg + '<br>')
 			});
 		});
 	</script>

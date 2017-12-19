@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
 form {
 	margin-top: 30px;
 }
@@ -6,116 +8,53 @@ form {
 	float: right;
 }
 
+/*Movie Info Styling*/
+.panel-info{
+	font-family: Roboto;
+	font-weight:400;
+	padding:0;
+	background-color: 
+}
 
-/**  chat-display **/
+.panel-info > .panel-heading{
+	background-color: #CBE2F3;
+	color:#244E81;
+}
 
-.chat-form {
-	margin-top: 20px;
-	font-family: "Roboto", sans-serif;
-	font-size: 1.5rem;
-  }
-  
-  .chat-display {
-	min-height: 150px;
-	max-height: 40vh;
-	overflow: scroll;
-	font-size: 1.2em;
-  }
-  
-  .chat-display p {
-	font-size: .9em;
-	padding: 0 10px;
-  }
-  
-  .feedback, .feedback-form-title {
-	font-size: 2rem;
-  }
-  
-  .feedback-form {
-	margin-top: 20px;
-	font-family: "Roboto", sans-serif;
-	font-size: 1.5rem;
-  }
-  
-  
-  .feedback-title {
-	font-size: 1.2em;
-  }
-  
-  .feedback-form-title {
-	font-size: 2em;
-  }
-  
-  .feedback-name {
-	font-size: .6em;
-	font-weight: 100;
-  }
+.movieIndentifier{
+	font-weight: 700;
+	color: #244E81;
+	font-size:16px;
+}
 
-  /**  chat-display **/
-  
-  .feedback-message {
-	font-weight: 100;
-	font-size: .9em;
-	line-height: 120%;
-	margin-top: 5px;
-  }
-  
-  .feedback-item {
-	border-bottom: 1px solid gray;
-	padding: 8px 0;
-  }
-  
-  .feedback-item:last-of-type {
-	border-bottom: none;
-  }
-	
-	
-	/** Messenger **/
-	@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
+.movieData{
+	font-weight: 400;
+	font-size: 16px;
+	color:#A9A9A9;
+}
 
-				body{
-				background:#fDfDfD;
-				font-family: 'Roboto', sans-serif;
-				}
-				#container{
-					width: 700px;
-					margin: 0 auto;
-				}
-				#chatWindow {
-					height:300px;
-				}
-				#mainWrapper{
-				display:none;
-				}
-				#chatWrapper{
-					float:left;
-					border:1px #ccc solid;
-					border-radius: 10px;
-					background: #f4f4f4;
-					padding:10px;
-					font-family: 'Roboto Mono', sans-serif;
-					font-size: 12px;
-				}
-				#userWrapper{
-					float:left;
-					border:1px #ccc solid;
-					border-radius: 10px;
-					background: #f4f4f4;
-					padding:10px;
-					margin-left: 20px;
-					width:150px;
-					max-height: 200px;
-				}
-				#namesWrapper{
-					float:left;
-					border:1px #ccc solid;
-					border-radius: 10px;
-					background: #f4f4f4;
-					padding:10px;
-					margin-left: 20px;
-				}
-				input{
-					height:30px;
-					border:1px solid #ccc;
-					font-family: 'Roboto Mono', sans-serif;
-				}
+.moviePoster{
+	border-radius: 7px;
+}
+
+h3 > .panel-heading{
+	margin: 0px;
+	padding: 5px;
+}
+
+/*Movie Info Ends*/
+
+/**  about-display **/
+.aboutText {
+	font-family:'Roboto', sans-serif;
+	font-weight:400;
+	font-size:16px;
+	line-height: 250%;
+	color:#A9A9A9;
+}
+
+.aboutTitle {
+	font-family:'Roboto', sans-serif;
+	font-weight:500;
+	color:#244E81;
+}
