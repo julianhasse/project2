@@ -82,14 +82,4 @@ exports.update = function(req, res){
 	
 }
 
-// Display selected movie
-// exports.info = function(req, res){
-// 	db.product.findOne({
-// 		where:{
-// 			id: req.params.id
-// 		}
-// 	}).then(function(data){
-// 		res.json(data);
-// 	});
-// }
 
