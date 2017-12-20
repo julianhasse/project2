@@ -1,4 +1,4 @@
-![alt text](assets/images/screenshots/screenShot01.jpg)
+![alt text](/assets/images/screenshots/screenShot01.jpg)
 
 
 # Project #2
